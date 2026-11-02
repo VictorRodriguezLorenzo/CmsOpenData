@@ -4,6 +4,9 @@ R.gROOT.ProcessLine(".L tools.C")
 
 # ---- CONSTANTS ----
 DATA_PATH = "~/share/rootfiles/Run2016G_MET_NANOAOD_UL2016_MiniAODv2_NanoAODv9-v1_270000_6A4F07DD-F1D1-164F-B509-AFBA9877D6D5_skimmed.root"
+DYMC_PATH = "~/share/rootfiles/DYJetsToLL_M-50_TuneCP5_13TeV-madgraphMLM-pythia8_MiniAODv2_NanoAODv9_59183214-61E6-A64C-AEDF-8EB180E8CFC6.root"
+TTMC_PATH = "~/share/rootfiles/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8_MiniAODv2_NanoAODv9_D31DE67D-37F2-3C4C-B4F3-476D1918B317.root"
+
 pogIds = ["Muon_looseId==1",
           "Muon_mediumId==1",
           "Muon_tightId==1"]
